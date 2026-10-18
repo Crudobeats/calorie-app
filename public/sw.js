@@ -1,0 +1,7 @@
+const PREFIX='calorieapp-',CACHE=PREFIX+'v4.2.0';
+const SHELL=['/','/index.html','/app.css','/app.js','/manifest.json','/icon.svg','/lib/core.js','/lib/storage.js','/lib/validation.js','/data/catalog.json'];
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL))));
+// A waiting update only activates after an explicit request by the user.
+self.addEventListener('message',event=>{if(event.data?.type==='ACTIVATE_UPDATE')self.skipWaiting()});
+self.addEventListener('activate',event=>event.waitUntil((async()=>{const names=await caches.keys();await Promise.all(names.filter(n=>(n.startsWith(PREFIX)||/^calorie-v\d+$/.test(n))&&n!==CACHE).map(n=>caches.delete(n)));await self.clients.claim()})()));
+self.addEventListener('fetch',event=>{const request=event.request,url=new URL(request.url);if(request.method!=='GET'||url.origin!==self.location.origin||url.pathname.startsWith('/api/'))return;event.respondWith((async()=>{try{const response=await fetch(request);if(response.ok&&SHELL.includes(url.pathname)){const cache=await caches.open(CACHE);await cache.put(request,response.clone())}return response}catch(error){const cached=await caches.match(request);if(cached)return cached;if(request.mode==='navigate'){const fallback=await caches.match('/index.html');if(fallback)return fallback}return new Response('No disponible sin conexión',{status:503,headers:{'Content-Type':'text/plain; charset=utf-8'}})}})())});

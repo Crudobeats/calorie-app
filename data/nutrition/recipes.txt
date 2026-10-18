@@ -1,0 +1,300 @@
+CL001 corn50 beef20 onion12 egg6 olive2 raisins2 sugar2 milk4 oil2
+CL002 potato55 beef25 onion10 milk5 butter3 olive2
+CL003 potato25 pumpkin20 beef18 corn12 carrot10 onion10 oil2 water3
+CL004 potato25 pumpkin25 corn15 carrot12 peas10 onion10 oil3
+CL005 bean45 pumpkin20 corn20 onion10 oil3 water2
+CL006 bean45 corn25 tomato12 pumpkin10 onion5 oil3
+CL007 corn75 onion10 milk8 oil5 sugar2
+CL008 tomato40 beef25 onion20 corn10 oil5
+CL009 potato40 steak25 onion15 friedegg15 oil5
+CL010 potato40 mushroom25 onion15 friedegg15 oil5
+CL011 steak45 greenbean25 tomato20 oil5 pepper5
+CL012 pork70 onion15 carrot10 oil5
+CL013 porkleg55 potato40 oil5
+CL014 stewbeef50 potato35 milk10 butter5
+CL015 stewbeef70 onion15 carrot10 oil5
+CL016 stewbeef50 potato35 milk10 butter5
+CL017 ribs55 potato40 oil5
+CL018 chicken55 peas25 carrot10 onion7 oil3
+CL019 chicken65 water15 onion10 carrot7 oil3
+CL020 tripe55 carrot15 peas15 onion10 oil5
+CL021 water35 stewbeef20 potato15 pumpkin10 corn10 rice5 carrot3 onion2
+CL022 water35 chicken20 potato15 pumpkin10 corn10 rice5 carrot3 onion2
+CL023 water35 turkey20 potato15 pumpkin10 corn10 rice5 carrot3 onion2
+CL024 water35 pork20 potato15 pumpkin10 corn10 rice5 carrot3 onion2
+CL025 water35 beef15 potato20 pumpkin10 carrot8 rice5 peas5 onion2
+CL026 water35 potato20 pumpkin15 carrot10 rice8 peas10 onion2
+CL027 water45 steak20 potato20 onion10 oil5
+CL028 water40 jerky15 potato20 onion15 egg5 oil5
+CL029 water50 whitefish25 potato10 tomato10 onion5
+CL030 water45 mussel20 clam15 shrimp10 onion5 tomato5
+CL031 water55 mussel15 clam10 shrimp5 carrot5 onion5 tomato5
+CL032 water60 chicken20 pasta12 carrot5 onion3
+CL033 water60 potato10 carrot10 pumpkin10 zucchini5 onion5
+CL034 pumpkin55 water25 cream10 onion5 butter5
+CL035 potato25 carrot20 pumpkin20 water20 cream10 onion5
+CL036 mushroom45 water30 cream15 onion5 butter5
+CL037 greenbean45 water30 cream15 onion5 butter5
+CL038 tomato65 water25 cream5 onion5
+CL039 water50 pasta25 beef15 carrot5 onion5
+CL040 water50 pasta25 carrot10 zucchini10 onion5
+CL041 lentil55 rice25 carrot10 onion7 oil3
+CL042 lentil55 sausage20 carrot10 onion10 oil5
+CL043 lentil65 carrot12 pumpkin10 onion10 oil3
+CL044 bean60 pasta22 onion10 pumpkin5 oil3
+CL045 bean60 sausage20 onion10 pumpkin7 oil3
+CL046 bean55 barley30 onion10 oil5
+CL047 chickpea55 rice25 carrot10 onion7 oil3
+CL048 chickpea65 spinach20 onion10 oil5
+CL049 chickpea60 sausage20 onion15 oil5
+CL050 splitpea65 carrot15 onion15 oil5
+CL051 fava70 carrot12 onion13 oil5
+CL052 kelp35 potato25 carrot15 onion20 oil5
+CL053 zucchini65 corn15 onion15 oil5
+CL054 spinach65 potato15 onion15 oil5
+CL055 spinach65 cream15 onion15 oil5
+CL056 eggplant65 tomato15 onion15 oil5
+CL057 quinoa55 zucchini20 carrot10 onion10 oil5
+CL058 pumpkin55 corn20 potato15 onion7 oil3
+CL059 potato25 carrot20 zucchini20 pumpkin20 onion12 oil3
+CL060 lentil50 potato30 carrot10 onion5 oil5
+CL061 salmon100
+CL062 salmon100
+CL063 salmon93 butter7
+CL064 whitefish80 flour10 oil10
+CL065 whitefish95 oil5
+CL066 whitefish96 oil4
+CL067 whitefish80 flour10 oil10
+CL068 whitefish80 flour10 oil10
+CL069 whitefish95 oil5
+CL070 mackerel95 oil5
+CL071 mackerel70 onion25 oil5
+CL072 tunasteak97 oil3
+CL073 trout97 oil3
+CL074 rawfish70 onion15 lemon12 pepper3
+CL075 rawfish40 shrimp20 clam15 onion12 lemon10 pepper3
+CL076 crab45 bread20 milk20 cream5 parmesan5 onion5
+CL077 mussel20 clam15 shrimp10 bread20 milk20 cream5 parmesan5 onion5
+CL078 clam70 parmesan15 butter10 lemon5
+CL079 mussel95 lemon5
+CL080 shrimp88 oil8 garlic4
+CL081 steak98 oil2
+CL082 steak35 potato30 friedegg20 onion10 oil5
+CL083 steak40 potato20 tomato15 onion15 soysauce5 oil5
+CL084 steak98 oil2
+CL085 steak80 cream10 mustard5 oil5
+CL086 stewbeef85 onion10 oil5
+CL087 beef70 bread10 egg10 tomatosauce10
+CL088 beef90 bread5 egg5
+CL089 rawbeef80 onion10 lemon5 oil5
+CL090 rawbeef85 parmesan5 oil5 lemon5
+CL091 ribs98 oil2
+CL092 pork98 oil2
+CL093 pork98 oil2
+CL094 pork55 pineapple15 pepper10 onion10 sugar5 oil5
+CL095 sausage100
+CL096 bread45 sausage50 tomatosauce5
+CL097 steak70 onion15 pepper10 oil5
+CL098 steak35 pork35 onion15 pepper10 oil5
+CL099 lamb98 oil2
+CL100 rabbit80 onion10 carrot5 oil5
+CL101 chicken100
+CL102 chicken100
+CL103 thigh100
+CL104 wholechicken100
+CL105 friedchicken100
+CL106 chicken78 flour10 egg5 oil7
+CL107 chicken75 whitebread12 egg5 oil8
+CL108 chicken65 cream20 onion10 curry2 oil3
+CL109 chicken65 mushroom20 cream10 oil5
+CL110 chicken80 lemon10 oil5 garlic5
+CL111 chicken80 soysauce10 sugar5 oil5
+CL112 chicken70 cream25 oil5
+CL113 chicken65 spinach15 carrot10 cheese5 oil5
+CL114 chicken45 potato25 lettuce15 tomato10 mayo5
+CL115 chicken60 potato20 egg10 whitebread5 oil5
+CL116 chicken85 egg10 whitebread5
+CL117 turkey100
+CL118 turkey100
+CL119 turkey70 whitebread15 egg10 tomatosauce5
+CL120 duck100
+CL121 pasta75 tomatosauce20 oil5
+CL122 pasta65 beef20 tomatosauce12 oil3
+CL123 pasta85 pesto15
+CL124 pasta65 ham15 cream10 parmesan5 egg5
+CL125 pasta65 chicken25 tomatosauce7 oil3
+CL126 pasta65 tuna25 tomatosauce7 oil3
+CL127 pasta65 zucchini12 carrot10 onion8 oil5
+CL128 pasta65 cream20 parmesan10 butter5
+CL129 pasta35 beef25 tomatosauce20 milk10 cheese10
+CL130 pasta35 zucchini20 spinach15 tomatosauce20 cheese10
+CL131 pasta35 chicken25 tomatosauce20 milk10 cheese10
+CL132 pasta45 spinach25 ricotta20 tomatosauce10
+CL133 pasta45 beef30 tomatosauce15 cheese10
+CL134 pasta65 beef25 tomatosauce10
+CL135 pasta65 ricotta25 tomatosauce10
+CL136 potato55 flour20 egg5 tomatosauce20
+CL137 potato55 flour20 egg5 cream20
+CL138 pasta65 cheese20 milk10 butter5
+CL139 pasta65 tomato10 carrot10 peas10 mayo5
+CL140 pasta65 shrimp20 zucchini10 oil5
+CL141 rice100
+CL142 rice90 wholeflour10
+CL143 rice70 peas10 carrot10 corn7 oil3
+CL144 rice65 chicken25 carrot5 oil5
+CL145 rice60 mussel15 shrimp10 clam10 oil5
+CL146 rice70 tuna25 oil5
+CL147 rice70 egg25 oil5
+CL148 rice65 beef25 carrot5 oil5
+CL149 rice75 pasta10 raisins5 almond5 oil5
+CL150 rice70 mushroom25 oil5
+CL151 rice45 lentil50 oil5
+CL152 rice45 bean50 oil5
+CL153 rice65 mushroom20 parmesan8 butter4 onion3
+CL154 rice65 shrimp20 parmesan8 butter4 onion3
+CL155 rice55 chicken15 shrimp10 mussel10 pepper5 oil5
+CL156 rice65 chicken15 egg10 soysauce5 oil5
+CL157 rice65 steak15 egg10 soysauce5 oil5
+CL158 quinoa100
+CL159 quinoa65 chicken25 carrot5 oil5
+CL160 couscous65 carrot15 zucchini15 oil5
+CL161 tomato70 onion25 oil5
+CL162 lettuce95 oil5
+CL163 tomato95 oil5
+CL164 cabbage95 oil5
+CL165 rawcarrot95 oil5
+CL166 beet95 oil5
+CL167 greenbean95 oil5
+CL168 celery95 oil5
+CL169 cucumber95 oil5
+CL170 potato90 mayo10
+CL171 potato45 carrot20 peas20 mayo15
+CL172 fava90 onion5 oil5
+CL173 chickpea65 tomato15 cucumber15 oil5
+CL174 lentil65 tomato15 onion15 oil5
+CL175 quinoa60 tomato20 cucumber15 oil5
+CL176 lettuce45 chicken30 whitebread10 parmesan5 mayo10
+CL177 lettuce35 tuna35 tomato20 mayo10
+CL178 kelp55 tomato20 onion20 oil5
+CL179 tomato35 cucumber30 cheese15 olive10 oil10
+CL180 avocado45 tomato50 oil5
+CL181 bread35 hotdog25 avocado15 tomato15 mayo10
+CL182 bread35 hotdog25 avocado10 tomato10 cabbage10 mayo10
+CL183 bread35 hotdog25 cabbage15 tomato10 mayo10 ketchup5
+CL184 bread35 steak25 avocado15 tomato15 mayo10
+CL185 bread35 steak30 greenbean20 tomato10 pepper5
+CL186 bread35 steak25 avocado15 tomato15 mayo10
+CL187 bread35 steak30 greenbean20 tomato10 pepper5
+CL188 bread35 steak25 cabbage15 tomato10 mayo10 ketchup5
+CL189 bread40 steak35 cheese25
+CL190 bread40 ham35 cheese25
+CL191 bread35 pork30 avocado15 tomato10 mayo10
+CL192 bread35 pork25 cabbage15 tomato10 mayo10 ketchup5
+CL193 bread40 stewbeef40 tomato10 mayo10
+CL194 bread40 tripe45 onion10 oil5
+CL195 bread40 chicken35 avocado25
+CL196 bread40 chicken40 mayo20
+CL197 bread40 tuna40 mayo20
+CL198 bread45 egg45 mayo10
+CL199 bread35 beef30 avocado15 tomato10 mayo10
+CL200 bread40 beef35 cheese20 ketchup5
+CL201 pastry50 beef25 onion15 egg5 olive3 raisins2
+CL202 pastry45 beef25 onion15 egg5 olive3 raisins2 oil5
+CL203 pastry50 cheese40 oil10
+CL204 pastry55 cheese45
+CL205 pastry50 mussel20 clam15 onion10 oil5
+CL206 pastry50 shrimp25 cheese20 oil5
+CL207 pastry50 cheese25 ham15 tomato10
+CL208 pastry50 spinach20 mushroom15 onion10 oil5
+CL209 pastry55 pumpkin30 oil15
+CL210 pastry60 pumpkin35 oil5
+CL211 pastry35 pumpkin20 oil10 sugar20 water15
+CL212 bread88 butter12
+CL213 bread85 butter15
+CL214 bread100
+CL215 wholebread100
+CL216 whitebread100
+CL217 pita100
+CL218 pastry85 butter15
+CL219 potato65 flour30 butter5
+CL220 potato65 flour15 pork10 oil10
+CL221 bread60 avocado40
+CL222 bread85 butter15
+CL223 bread65 cheese35
+CL224 bread65 ham35
+CL225 bread75 jam25
+CL226 bread60 scrambledegg40
+CL227 bread70 condensed30
+CL228 whitebread65 tomato30 oil5
+CL229 oatporridge100
+CL230 oatporridge60 milk40
+CL231 yogurt70 oats30
+CL232 yogurt70 strawberry15 banana15
+CL233 yogurt65 granola35
+CL234 milk70 cornflakes30
+CL235 scrambledegg100
+CL236 egg100
+CL237 egg65 cheese30 oil5
+CL238 egg65 zucchini20 onion10 oil5
+CL239 pancake65 banana20 strawberry15
+CL240 chia15 milk70 sugar5 strawberry10
+CL241 potato75 oil15 flour10
+CL242 potato94 oil6
+CL243 potato100
+CL244 potato75 milk20 butter5
+CL245 pumpkin80 potato10 butter5 milk5
+CL246 splitpea85 milk10 butter5
+CL247 potato70 cream20 cheese10
+CL248 potato65 egg15 butter10 flour10
+CL249 potato92 oil8
+CL250 corn100
+CL251 corn92 butter8
+CL252 broccoli35 carrot30 cauliflower35
+CL253 zucchini30 carrot25 broccoli25 mushroom15 oil5
+CL254 zucchini95 oil5
+CL255 eggplant95 oil5
+CL256 mushroom90 oil10
+CL257 broccoli100
+CL258 cauliflower70 milk15 cheese10 butter5
+CL259 spinach55 egg35 onion5 oil5
+CL260 potato55 egg35 onion5 oil5
+CL261 milk65 egg20 sugar15
+CL262 milk65 egg20 sugar15
+CL263 milk65 rice25 sugar10
+CL264 milk70 semolina15 sugar15
+CL265 barley30 peach20 prune10 sugar15 water25
+CL266 peach65 sugar10 water25
+CL267 apple25 banana25 orange25 pear25
+CL268 apple95 sugar5
+CL269 apple85 water10 sugar5
+CL270 pastry35 apple45 sugar15 butter5
+CL271 pastry35 walnut30 sugar20 condensed15
+CL272 pastry30 condensed35 lemon15 whitefrosting20
+CL273 puff40 condensed50 sugar10
+CL274 chocolatecake75 cream15 sugar10
+CL275 whitefrosting50 cream35 strawberry15
+CL276 poundcake100
+CL277 poundcake65 carrot20 walnut10 sugar5
+CL278 doughnut95 sugar5
+CL279 ladyfinger60 condensed30 whitefrosting10
+CL280 ladyfinger65 condensed30 sugar5
+CL281 bread50 mozzarella30 tomatosauce15 oil5
+CL282 bread50 mozzarella25 ham15 tomatosauce10
+CL283 bread50 mozzarella25 sausage15 tomatosauce10
+CL284 bread45 mozzarella25 mushroom10 pepper10 tomatosauce10
+CL285 rice55 rawsalmon25 avocado18 kelp2
+CL286 rice55 chicken25 avocado18 kelp2
+CL287 rice50 shrimp25 avocado10 flour8 oil5 kelp2
+CL288 rice60 rawsalmon25 avocado10 cucumber5
+CL289 rice60 chicken25 avocado10 cucumber5
+CL290 rice40 tunasteak35 avocado15 cucumber10
+CL291 pita30 chicken30 bean20 rice10 tomato10
+CL292 pita30 beef30 bean20 rice10 tomato10
+CL293 pita35 beef35 tomato15 lettuce10 cheese5
+CL294 pita35 bean35 tomato15 lettuce10 cheese5
+CL295 pita45 cheese50 oil5
+CL296 pita30 chicken35 pepper20 onion10 oil5
+CL297 falafel100
+CL298 hummus100
+CL299 tofu55 broccoli20 carrot15 soysauce5 oil5
+CL300 lentil70 egg10 oats10 onion5 oil5

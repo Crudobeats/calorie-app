@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "calorieapp-web",
+  "main": "server/worker.js",
+  "compatibility_date": "2026-10-18",
+  "assets": {"directory": "./public", "binding": "ASSETS", "run_worker_first": ["/api/*"]},
+  "vars": {"AI_ENABLED": "false", "OPENAI_MODEL": "gpt-5.6-terra", "DAILY_AI_LIMIT": "30", "TURNSTILE_SITE_KEY": ""},
+  "ratelimits": [{"name": "AI_RATE_LIMITER", "namespace_id": "10404", "simple": {"limit": 3, "period": 60}}],
+  "durable_objects": {"bindings": [{"name": "AI_BUDGET", "class_name": "BudgetGate"}]},
+  "migrations": [{"tag": "v1", "new_sqlite_classes": ["BudgetGate"]}]
+  // Opcional, para actualizar el catálogo global sin desplegar la app:
+  // ,"kv_namespaces": [{"binding": "CATALOG", "id": "ID_REAL_DEL_NAMESPACE"}]
+}

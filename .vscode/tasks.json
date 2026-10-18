@@ -1,0 +1,1 @@
+{"version":"2.0.0","tasks":[{"label":"CalorieApp: iniciar local","type":"npm","script":"start","isBackground":true,"problemMatcher":[]},{"label":"CalorieApp: verificar","type":"npm","script":"check","problemMatcher":[]},{"label":"CalorieApp: pruebas","type":"npm","script":"test","problemMatcher":[]}]}
