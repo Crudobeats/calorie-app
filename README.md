@@ -1,10 +1,10 @@
-# CalorieApp Web 4.2.0 — versión de revisión
+# CalorieApp Web 4.3.0 — versión de revisión
 
 Proyecto editable que conserva la UI aprobada. No se publicó en GitHub ni Cloudflare. Se separan interfaz, cálculos, datos, persistencia y servidor de reconocimiento.
 
 ## Abrir en Visual Studio Code
 
-1. Descomprime el ZIP y abre la carpeta `calorieapp-v4.2` con **Archivo → Abrir carpeta**.
+1. Descomprime el ZIP y abre la carpeta `calorieapp-v4.3` con **Archivo → Abrir carpeta**.
 2. Instala Node.js 22 o superior si no lo tienes.
 3. Abre una terminal en esa carpeta y ejecuta:
 
@@ -22,6 +22,22 @@ npm test
 ```
 
 Las tareas de VS Code incluyen inicio local, comprobaciones y pruebas. Para formatear un archivo JavaScript puedes usar el formateador integrado de VS Code: **Format Document / Shift+Alt+F**.
+
+## Mejoras 4.3 y referencia OpenNutriTracker
+
+- Agua rápida en ml, meta opcional, corrección y deshacer; agua del catálogo integrada una sola vez.
+- Favoritos y filtro de alimentos usados antes.
+- Preparaciones reutilizables con varios ingredientes; repetir una comida en el borrador de hoy.
+- Seguimiento de 7/30 días, sin promediar días sin datos como cero.
+- Fibra, azúcares totales, grasas saturadas y sodio en registros nuevos y totales diarios; datos faltantes señalados.
+- IA sin campos de nutrición: identifica y propone cantidades; la composición viene de la ficha y las porciones visuales requieren confirmación.
+- Respaldo esquema 6, con agua, meta, favoritos y preparaciones; importa esquemas 4 y 5.
+
+Consulta **docs/COMPARACION_OPENNUTRITRACKER.md** para la comparación, las funciones adoptadas y las que quedan pendientes. No se copiaron archivos del repositorio externo ni se agregaron sus dependencias.
+
+## Corrección del reconocimiento
+
+Consulta **docs/ACTIVACION_IA.md**: explica el botón, la conexión de Pages con el Worker y los pasos para activar el proveedor. La IA permanece desactivada hasta configurar el servidor; no basta con publicar los archivos estáticos.
 
 ## Cambios de esta revisión
 
@@ -57,7 +73,7 @@ Las 400 fichas incluyen kcal, proteínas, carbohidratos y grasas. **No equivalen
 
 Las bebidas se registran por ml, L o porciones con volumen conocido; sólidos por g o porciones pesadas. La composición se expresa por 100 ml o 100 g respectivamente. Los datos USDA por masa se convierten a volumen mediante porciones documentadas, con limitación explícita de aproximación. Las mezclas que necesitan un equivalente para volumen lo explican en su ficha. Ningún dato requiere consultar IA para buscarlo.
 
-Los registros previos conservan su cantidad y composición originales: una bebida antigua guardada por gramos permanece por gramos. Los nuevos respaldos usan esquema 5 y aceptan la importación de esquema 4. Las correcciones privadas antiguas por 100 g se convierten usando la relación de volumen documentada al aplicarlas al catálogo nuevo; no cambian los registros históricos.
+Los registros previos conservan su cantidad y composición originales: una bebida antigua guardada por gramos permanece por gramos. Los nuevos respaldos usan esquema 6 y aceptan la importación de esquemas 4 y 5. Las correcciones privadas antiguas por 100 g se convierten usando la relación de volumen documentada al aplicarlas al catálogo nuevo; no cambian los registros históricos.
 
 Puedes corregir valores con la etiqueta de tu marca o receta medida, y crear una bebida privada por 100 ml. El detalle de fuentes, cobertura y límites se encuentra en `docs/NUTRICION.md`. El paquete incluye las filas fuente utilizadas, el mapeo y un script para recalcular, sin claves ni servicios externos.
 

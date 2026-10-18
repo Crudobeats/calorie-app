@@ -1,5 +1,5 @@
-const PREFIX='calorieapp-',CACHE=PREFIX+'v4.2.0';
-const SHELL=['/','/index.html','/app.css','/app.js','/manifest.json','/icon.svg','/lib/core.js','/lib/storage.js','/lib/validation.js','/data/catalog.json'];
+const PREFIX='calorieapp-',CACHE=PREFIX+'v4.3.0';
+const SHELL=['/','/index.html','/app.css','/app.js','/manifest.json','/icon.svg','/lib/core.js','/lib/tracking.js','/lib/storage.js','/lib/validation.js','/data/catalog.json'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL))));
 // A waiting update only activates after an explicit request by the user.
 self.addEventListener('message',event=>{if(event.data?.type==='ACTIVATE_UPDATE')self.skipWaiting()});

@@ -10,7 +10,7 @@ Nada de esta guía se ejecutó contra tu cuenta. No subas secretos a GitHub. La 
 
 La configuración suministrada es **Cloudflare Workers con Static Assets**, no un sitio de GitHub Pages ni una configuración directa de Cloudflare Pages. Workers sirve `public/` y atiende `/api/*`. Mantener el mismo origen permite validar solicitudes y evita abrir CORS a cualquier dominio.
 
-Si tu app actual usa Pages, hay dos caminos: mantener Pages y colocar un Worker en las rutas `/api/*` del mismo dominio, adaptando los bindings de recursos; o publicar esta versión como un Worker con Static Assets y apuntar el dominio cuando esté validado. El paquete implementa el segundo camino. No cambies tu dominio antes de probar la nueva instalación.
+La 4.2.1 incluye una Function para conservar Pages mediante la Service Binding AI_BACKEND; consulta ACTIVACION_IA.md para ese procedimiento. También hay dos caminos anteriores: mantener Pages y colocar un Worker en las rutas `/api/*` del mismo dominio, adaptando los bindings de recursos; o publicar esta versión como un Worker con Static Assets y apuntar el dominio cuando esté validado. El paquete permite Worker con Static Assets y, desde 4.2.1, también el puente de Pages mediante AI_BACKEND. No cambies tu dominio antes de probar la nueva instalación.
 
 El uso de infraestructura dentro de cuotas gratuitas no vuelve gratuita a la API de reconocimiento. Revisa los costos y cuotas de tu cuenta antes de activarla.
 

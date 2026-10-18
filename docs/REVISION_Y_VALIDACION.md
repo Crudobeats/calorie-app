@@ -1,4 +1,4 @@
-# Revisión y validación de la versión 4.2.0
+# Revisión y validación de la versión 4.3.0
 
 ## Decisiones aplicadas
 
@@ -24,7 +24,7 @@ Se añadieron revisión optimista de IndexedDB para dos pestañas, aviso por Bro
 
 ## Validación automática
 
-Resultado de esta entrega: **44 pruebas automatizadas aprobadas**, más comprobación de sintaxis y catálogo.
+Resultado de esta entrega: **65 pruebas automatizadas aprobadas**, más comprobación de sintaxis y catálogo.
 
 Comandos ejecutables: `npm run check` y `npm test`.
 
@@ -60,7 +60,7 @@ Los cálculos semanales/por fecha usan una equivalencia lineal de 7.700 kcal/kg 
 
 La asistencia profesional es opcional; no es una autorización para usar la app. El cálculo general mantiene un ámbito adulto y límites de producto (1.500 kcal para perfil masculino / 1.200 para femenino, máximo 6.000) sin afirmar que esos valores sean adecuados para cada persona. Los ajustes por encima del 35 % y la equivalencia por encima del 1 % semanal generan avisos, no una derivación obligatoria. El usuario revisa y confirma; las metas imposibles no se aplican.
 
-Se verificaron el caso de 3.000 kcal, la conversión de recorte a total diario, normalización de porcentajes, conciliación de gramos, invalidación del cálculo y aplicación con avisos. Las 44 pruebas están aprobadas. No hubo despliegue ni llamadas reales de reconocimiento.
+Se verificaron el caso de 3.000 kcal, la conversión de recorte a total diario, normalización de porcentajes, conciliación de gramos, invalidación del cálculo y aplicación con avisos. Las 65 pruebas están aprobadas. No hubo despliegue ni llamadas reales de reconocimiento.
 
 Fuentes del alcance de cálculo: https://www.niddk.nih.gov/bwp y https://support.myfitnesspal.com/hc/en-us/articles/360032625391-How-does-MyFitnessPal-calculate-my-initial-goals .
 
@@ -70,3 +70,13 @@ Fuentes del alcance de cálculo: https://www.niddk.nih.gov/bwp y https://support
 Se verificaron 500 ml frente a 0,5 L; porciones con volumen conocido; bebidas manuales con etiqueta por 100 ml; conservación de unidades en diario y respaldos; registros históricos por gramos y conversión explícita de correcciones antiguas. El servidor convierte las sugerencias visuales por masa a volumen solo con una relación documentada. Se comprobó el aceite de oliva con una relación distinta de 1 g/ml, y se recalcularon los ocho nutrientes de las 400 fichas contra los 186 registros fuente y sus mezclas.
 
 Las pruebas no validan en laboratorio las recetas modeladas. Las aproximaciones y datos faltantes se muestran al usuario. Véase NUTRICION.md. La visualización de revisión reproduce los flujos con datos temporales, sin llamadas de red ni almacenamiento persistente.
+
+
+## Reconocimiento 4.2.1
+
+Se añaden ocho pruebas de integración del flujo de foto/acción/consentimiento/verificación/alternativas, respuestas HTML inesperadas, vencimiento y recuperación, errores de inferencia persistentes, puente Pages con Service Binding y diagnóstico de requisitos. La cantidad no estimada permanece vacía. Consulta ACTIVACION_IA.md para los pasos pendientes de activación real.
+
+
+## Revisión 4.3
+
+Pruebas actualizadas de agua y metas, recuperación ante fallo, separación de otras bebidas/aceite, fechas civiles, favoritos, preparaciones y repetición sin cambios retroactivos, detalles nutricionales, migración de esquemas 4/5 a 6, IDs y cuotas. La IA ya no puede introducir nutrientes mediante su esquema y los campos inesperados se ignoran. Véase COMPARACION_OPENNUTRITRACKER.md para el alcance. No se hicieron pruebas de IA real ni navegador real.
